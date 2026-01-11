@@ -1,0 +1,10 @@
+What is the subject of linear systems theory?	The study of systems whose behavior depends linearly on inputs, initial conditions, and internal variables.	Kailath frames this as a mathematical theory, not tied to a specific physical domain.	1	1.1	ch1 core definition	
+What distinguishes a system from a signal?	A signal is a function of an independent variable; a system is a mapping from input signals to output signals.	This distinction underlies input–output descriptions.	1	1.1	ch1 core	
+What does it mean to model a system?	To replace a real process by a mathematical description that captures behavior of interest.	Models are purpose-driven and approximate.	1	1.2	ch1 core modeling	
+Why are models abstractions?	Because different models can represent the same physical system depending on objectives.	Avoids over-interpreting mathematics physically.	1	1.2	ch1 danger	
+What is meant by linearity of a system?	Superposition holds: responses to summed or scaled inputs equal summed or scaled responses.	Assumed with respect to chosen variables.	1	1.3	ch1 core linearity	
+What is time invariance?	System behavior is unchanged by shifts of the time origin.	Time-varying systems violate this property.	1	1.3	ch1 core time-invariance	
+Why does Kailath emphasize structure over solution formulas?	Because structural properties persist under transformations and generalize across problems.	This motivates state-space theory.	1	1.4	ch1 intuition	
+What are representations versus realizations? (preview)	A representation describes behavior; a realization specifies internal structure.	This distinction becomes central later.	1	1.5	ch1 preview	
+Why is equivalence of models important?	Different mathematical forms can represent the same system behavior.	Leads to invariants and canonical forms.	1	1.5	ch1 core equivalence	
+⚠️ Why is it dangerous to confuse a model with the system itself?	Because models are approximations tailored to specific questions.	Common source of conceptual error.	1	1.x	ch1 danger	
