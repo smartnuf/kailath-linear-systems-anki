@@ -1,9 +1,12 @@
 # Kailath – Linear Systems (Anki Deck)
 
-This repository contains an Anki flashcard deck based on  
-**T. Kailath, _Linear Systems_ (1980)**.
+This repository contains an Anki flashcard deck based on  **T. Kailath, _Linear Systems_ (1980)**.
 
-The deck is designed for **deep conceptual understanding**, not rote memorisation, and is aimed at readers working seriously through Kailath’s text—particularly those interested in realization theory, minimality, structural properties, and connections to passive network synthesis.
+The deck is designed for **deep conceptual understanding**, not rote memorisation, and is aimed at readers working seriously through Kailath’s text—particularly those interested in 
+- realization theory,
+- minimality,
+- structural properties,
+- and connections to passive network synthesis.
 
 ---
 
@@ -27,14 +30,16 @@ This is not an exam-prep deck; it is intended as a **long-lived intellectual com
 
 ## Repository Structure
 
-.
+<pre>
+text
 ├── decks/
 │ ├── Kailath_Linear_Systems_Ch1.tsv
 │ ├── Kailath_Linear_Systems_Ch2.tsv
-│ └── images/ # (optional, future)
+│ └── images/ # (future)
 ├── build/
-│ └── Kailath.apkg # (optional, generated)
+│ └── Kailath.apkg # (current release)
 ├── README.md
+</pre>
 
 - **TSV (tab-delimited)** files are used instead of CSV for maximum Anki compatibility.
 - Images (if added later) should be placed in `decks/images/`.
