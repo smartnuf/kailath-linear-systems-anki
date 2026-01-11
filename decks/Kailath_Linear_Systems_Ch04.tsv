@@ -1,6 +1,0 @@
-Front	Back	Context	Chapter	Section	Tags	Image
-What does controllability mean?	The ability to steer the state to any point using admissible inputs.	Property of the realization, not the transfer function alone.	4	4.1	ch4 core controllability	
-What does observability mean?	The ability to reconstruct the state from output measurements.	Dual to controllability.	4	4.1	ch4 core observability	
-Why are controllability and observability structural?	They are invariant under similarity transformations.	Depend on rank conditions.	4	4.2	ch4 core structure	
-What does the Kalman decomposition achieve?	It separates the state into controllable/observable subspaces.	Foundation for minimality.	4	4.3	ch4 core kalman	
-⚠️ Why can a system be controllable but not observable?	Input reachability does not imply output visibility.	Independent properties.	4	4.x	ch4 danger	

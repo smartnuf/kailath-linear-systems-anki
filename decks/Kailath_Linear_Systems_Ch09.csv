@@ -1,0 +1,7 @@
+Why do polynomial matrices appear in system theory?	They encode multivariable linear dynamics algebraically.	Needed for zero and factorization theory.	9	9.1	ch9 core motivation	
+What is a unimodular matrix?	A polynomial matrix with a polynomial inverse.	Represents change of basis over a ring.	9	9.2	ch9 core unimodular	
+Why are unimodular transformations important?	They preserve essential input–output structure.	Used in Smith and Smith–McMillan forms.	9	9.2	ch9 core invariance	
+What is the Smith normal form?	A diagonal form of a polynomial matrix under unimodular equivalence.	Reveals invariant factors.	9	9.3	ch9 core smith	
+What does Smith–McMillan form generalize?	Smith form for rational matrices.	Classifies poles and zeros structurally.	9	9.4	ch9 core smith-mcmillan	
+Why does Smith–McMillan form matter?	It defines the McMillan degree and transmission zeros.	Central invariant of transfer matrices.	9	9.4	ch9 core invariants	
+⚠️ Why is this not linear algebra over a field?	Polynomial matrices form modules over rings.	Vector-space intuition breaks down.	9	9.x	ch9 danger modules	

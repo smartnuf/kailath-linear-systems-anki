@@ -1,0 +1,21 @@
+What is the central question of stability in linear systems?	Whether the system’s response remains bounded or converges when driven by bounded inputs or initial conditions.	Several notions of stability coexist.	7	7.1	ch7 core motivation	
+What is Lyapunov (internal) stability?	Small perturbations of the initial state lead to small deviations in the state trajectory.	Concerns internal dynamics.	7	7.2	ch7 core lyapunov	
+What is asymptotic stability?	All trajectories converge to the equilibrium as time goes to infinity.	Stronger than Lyapunov stability.	7	7.2	ch7 core asymptotic	
+What is exponential stability?	State norms decay exponentially fast.	Equivalent to eigenvalues strictly in the left half-plane for LTI systems.	7	7.2	ch7 core exponential	
+What is BIBO stability?	Bounded input implies bounded output.	Purely an input–output notion.	7	7.3	ch7 core bibo	
+Why is BIBO stability not equivalent to Lyapunov stability?	A system may be internally unstable yet have bounded input–output behavior.	Depends on realization structure.	7	7.3	ch7 danger bibo	
+What determines Lyapunov stability of an LTI system?	The eigenvalues of the state matrix A.	Structure matters, not representation.	7	7.4	ch7 core eigenvalues	
+What eigenvalue condition guarantees asymptotic stability?	All eigenvalues of A have strictly negative real parts.	For continuous-time systems.	7	7.4	ch7 core condition	
+⚠️ Why are eigenvalues on the imaginary axis problematic?	They lead to marginal stability.	Small perturbations can destabilize the system.	7	7.4	ch7 danger marginal	
+What is a Lyapunov function?	A scalar function that decreases along trajectories.	Used to certify stability without solving trajectories.	7	7.5	ch7 core lyapunov-function	
+What is the Lyapunov equation?	A^T P + P A = -Q, with Q > 0.	Used to test asymptotic stability.	7	7.5	ch7 core lyapunov-equation	
+Why is the Lyapunov equation important structurally?	It links stability to the existence of an energy-like quadratic form.	Key for passivity and PR theory.	7	7.5	ch7 pr-link energy	
+What does the existence of P > 0 solving the Lyapunov equation imply?	The system is asymptotically stable.	Coordinate-free condition.	7	7.5	ch7 core implication	
+How does stability relate to minimality?	Unstable uncontrollable modes cannot be removed without changing behavior.	Stability interacts with realization structure.	7	7.x	ch7 core minimality	
+How does stability relate to controllability and observability?	Stability concerns A alone; controllability/observability concern interaction with inputs/outputs.	Distinct but interacting notions.	7	7.x	ch7 core interaction	
+Why can a transfer function hide unstable internal modes?	Pole–zero cancellation can remove unstable poles from the transfer function.	State-space reveals them.	7	7.x	ch7 danger cancellation	
+Why is stability a property of the realization, not just the transfer function?	Internal dynamics matter even when hidden from input–output behavior.	Essential for synthesis.	7	7.x	ch7 danger realization	
+How is stability interpreted in passive networks?	Energy must not grow internally.	Passivity implies stability.	7	7.x	ch7 pr-link passive	
+Why does passivity imply stability?	Energy dissipation prevents unbounded growth.	Formalized via Lyapunov functions.	7	7.x	ch7 pr-link implication	
+⚠️ What is the most common mistake regarding stability?	Equating BIBO stability with internal stability.	They are different notions.	7	7.x	ch7 danger big-picture	
+Why is Chapter 7 a conceptual bridge?	It links algebraic structure, dynamics, and energy interpretations.	Prepares for realization and synthesis theory.	7	7.x	ch7 forward	

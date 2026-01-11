@@ -1,0 +1,22 @@
+Why does Kailath introduce canonical forms?	To choose representative realizations within an equivalence class to expose particular structural properties.	Canonical does not mean physically realizable.	6	6.1	ch6 core motivation	
+What does a canonical form guarantee?	Behavioral equivalence under similarity.	It does not guarantee sparsity, passivity, or realizability.	6	6.1	ch6 core guarantee	
+What does the controllable canonical form emphasize?	The reachability structure of the system from the input.	Makes controllability explicit.	6	6.2	ch6 core controllable-canonical	
+Why is controllable canonical form useful?	It provides a simple testbed for controllability and pole placement.	Often used in control design examples.	6	6.2	ch6 core usefulness	
+⚠️ Why is controllable canonical form dangerous in synthesis?	It ignores physical and energetic constraints.	It may be unrealizable as a passive network.	6	6.2	ch6 danger synthesis	
+What does the observable canonical form emphasize?	The reconstructability of the state from the output.	Dual of controllable canonical form.	6	6.3	ch6 core observable-canonical	
+How is observable canonical form related to controllable canonical form?	It is the dual under transposition of system matrices.	Reflects controllability–observability duality.	6	6.3	ch6 core duality	
+What is the modal (diagonal or Jordan) form?	A canonical form that exposes eigenvalues and their multiplicities.	Requires algebraic closure of the field.	6	6.4	ch6 core modal	
+⚠️ Why is modal form treated cautiously?	It is structurally fragile and not robust to perturbations.	Small changes destroy diagonalization.	6	6.4	ch6 danger modal	
+What does Jordan form reveal that diagonal form does not?	The presence of nontrivial Jordan blocks and algebraic multiplicity.	Important for internal dynamics.	6	6.4	ch6 core jordan	
+Why distinguish real and complex canonical forms?	Real systems may require block structures to represent complex modes.	Complex forms simplify analysis but hide real structure.	6	6.5	ch6 core real-vs-complex	
+When is it acceptable to use complex canonical forms for real systems?	When analysis convenience outweighs implementation concerns.	Real realizations can often be recovered later.	6	6.5	ch6 core complexification	
+Why are canonical forms not similarity-invariant as structures?	Similarity preserves behavior but not sparsity or pattern.	Canonical appearance depends on chosen basis.	6	6.6	ch6 core similarity	
+What structural properties are preserved under similarity?	Eigenvalues, invariant subspaces, minimal polynomial.	Not physical interconnection or energy structure.	6	6.6	ch6 core invariants	
+Why are canonical forms not synthesis recipes?	They ignore constraints required for physical realizability.	Synthesis requires additional structure.	6	6.x	ch6 danger synthesis	
+How do canonical forms differ from ladder or Jacobi forms?	Canonical forms emphasize algebraic structure; ladders emphasize physical interconnection.	Jacobi structure is not canonical in Kailath’s sense.	6	6.x	ch6 pr-link ladder	
+Why do ladder (Jacobi) realizations matter in PR synthesis?	They align algebraic structure with energy storage and passivity.	Not every canonical form supports this.	6	6.x	ch6 pr-link jacobi	
+Why can a canonical form destroy passivity?	Similarity transformations generally destroy energy metrics.	Passivity is not similarity-invariant.	6	6.x	ch6 danger pr-link	
+Give an example of two canonical forms representing the same system.	Controllable and observable canonical forms of the same transfer function.	Behaviorally equivalent but structurally different.	6	6.x	ch6 example micro	
+Give an example of a canonical form unsuitable for synthesis.	A controllable canonical form with dense coupling.	Fails physical realizability constraints.	6	6.x	ch6 example micro	
+⚠️ What is the most common misconception about canonical forms?	That canonical means preferred or physically meaningful.	Canonical is context-dependent.	6	6.x	ch6 danger big-picture	
+Why is Chapter 6 a conceptual checkpoint?	It clarifies what algebraic equivalence can and cannot guarantee.	Prepares for realization and synthesis theory.	6	6.x	ch6 forward	

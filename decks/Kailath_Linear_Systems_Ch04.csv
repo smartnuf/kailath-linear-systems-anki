@@ -1,0 +1,28 @@
+What is the central question of controllability?	Whether it is possible to steer the state from any initial condition to any final condition using admissible inputs.	Property of the realization, not just the differential equation.	4	4.1	ch4 core controllability	
+What is the central question of observability?	Whether the internal state can be uniquely reconstructed from knowledge of the input and output over time.	Dual to controllability.	4	4.1	ch4 core observability	
+Why are controllability and observability realization properties?	They depend on how the state is represented internally, not only on the input–output map.	However, minimality makes them intrinsic.	4	4.1	ch4 core realization	
+What is the controllability matrix?	[B, AB, A^2B, …, A^{n-1}B].	Used to test reachability via rank.	4	4.2	ch4 core test	
+What is the controllability rank condition?	The realization is controllable iff the controllability matrix has full row rank.	Coordinate-free statement.	4	4.2	ch4 core rank	
+What is the observability matrix?	[C; CA; CA^2; …; CA^{n-1}].	Used to test reconstructability of the state.	4	4.2	ch4 core test	
+What is the observability rank condition?	The realization is observable iff the observability matrix has full column rank.	Dual to controllability.	4	4.2	ch4 core rank	
+What does lack of controllability mean dynamically?	Some state components cannot be influenced by the input.	They evolve autonomously.	4	4.3	ch4 core interpretation	
+What does lack of observability mean dynamically?	Some state components do not affect the output.	They are hidden from measurement.	4	4.3	ch4 core interpretation	
+⚠️ Why is controllability not the same as stabilizability?	A system may have uncontrollable but stable modes.	These do not affect asymptotic behavior but matter structurally.	4	4.3	ch4 danger stabilizability	
+What is the duality between controllability and observability?	Controllability of (A,B) is equivalent to observability of (Aᵀ,Cᵀ).	Reveals deep symmetry in the theory.	4	4.4	ch4 core duality	
+Why is duality important conceptually?	It allows results to be transferred between controllability and observability.	Reduces proofs and clarifies structure.	4	4.4	ch4 core duality	
+How do invariant subspaces relate to uncontrollability?	Uncontrollable modes span invariant subspaces of A.	These subspaces cannot be reached by input.	4	4.5	ch4 core invariant-subspace	
+How do invariant subspaces relate to unobservability?	Unobservable modes lie in invariant subspaces invisible to C.	These subspaces do not affect output.	4	4.5	ch4 core invariant-subspace	
+What is the Kalman decomposition?	A decomposition of the state space into controllable/observable subspaces.	Separates the dynamics structurally.	4	4.6	ch4 core kalman	
+What four subspaces appear in the Kalman decomposition?	Controllable–observable, controllable–unobservable, uncontrollable–observable, uncontrollable–unobservable.	Each has distinct dynamical meaning.	4	4.6	ch4 core kalman	
+Why is the Kalman decomposition fundamental?	It exposes all structural redundancy in a realization.	Basis for minimality.	4	4.6	ch4 core kalman	
+How does controllability relate to minimality?	A minimal realization must be controllable.	Otherwise redundant states exist.	4	4.7	ch4 core minimality	
+How does observability relate to minimality?	A minimal realization must be observable.	Unobservable states are redundant.	4	4.7	ch4 core minimality	
+Why can a transfer function hide uncontrollable modes?	Uncontrollable but stable modes may not appear in the input–output behavior.	State-space reveals them.	4	4.x	ch4 core io-vs-state	
+Why can a transfer function hide unobservable modes?	Unobservable modes do not affect output.	They may still exist internally.	4	4.x	ch4 core io-vs-state	
+How can controllability be interpreted in passive networks?	As the ability of external sources to inject energy into all storage elements.	Links to physical accessibility.	4	4.x	ch4 pr-link controllability	
+How can observability be interpreted in passive networks?	As the ability to sense stored energy through terminal variables.	Hidden energy is unobservable.	4	4.x	ch4 pr-link observability	
+⚠️ Why is uncontrollable energy problematic in synthesis?	It corresponds to isolated or trapped energy storage.	Physically undesirable or unrealizable.	4	4.x	ch4 danger pr-link	
+Give an example of an uncontrollable but stable mode.	A decoupled stable subsystem not connected to the input.	Does not affect asymptotic output.	4	4.x	ch4 example micro	
+Give an example of an unobservable mode.	A state that evolves but does not appear in the output equation.	Hidden from measurement.	4	4.x	ch4 example micro	
+⚠️ What is the most common mistake when first learning controllability?	Assuming it is purely an input–output concept.	It is fundamentally a state-space notion.	4	4.x	ch4 danger big-picture	
+Why is Chapter 4 a turning point in the book?	It introduces structural criteria that define meaningful realizations.	Sets the stage for minimality and canonical forms.	4	4.x	ch4 forward ch5	

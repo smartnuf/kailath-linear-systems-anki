@@ -1,0 +1,7 @@
+What is the realization problem?	Given an input–output description, find a state-space model that produces it.	Existence and structure are the key questions.	8	8.1	ch8 core realization	
+What does realization theory guarantee?	That rational transfer functions admit finite-dimensional realizations.	Minimal realizations are of particular interest.	8	8.1	ch8 core existence	
+What does it mean for a realization to be proper?	The system does not require differentiation of the input.	Ensures physical plausibility.	8	8.2	ch8 core properness	
+Why is strict properness important?	It ensures the state captures all dynamics.	Direct feedthrough is absent.	8	8.2	ch8 core strict-proper	
+How does realization relate to McMillan degree?	The McMillan degree equals the minimal state dimension.	Links algebraic and state-space views.	8	8.3	ch8 core mcmillan	
+Why is realization not unique?	Many similarity-related realizations produce the same behavior.	Structure, not coordinates, matters.	8	8.x	ch8 core nonuniqueness	
+⚠️ Why is realization theory not synthesis?	Existence does not imply physical or passive realizability.	Additional constraints are needed.	8	8.x	ch8 danger synthesis	

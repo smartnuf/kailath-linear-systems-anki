@@ -1,0 +1,21 @@
+What is a minimal realization?	A realization that is both controllable and observable.	Minimal among all realizations of the same input–output behavior.	5	5.1	ch5 core minimality	
+Why must a minimal realization be controllable?	Uncontrollable states cannot be influenced by the input and are dynamically redundant.	Such states can be removed without changing behavior.	5	5.1	ch5 core controllability	
+Why must a minimal realization be observable?	Unobservable states do not affect the output and are therefore redundant.	They can be eliminated without changing input–output behavior.	5	5.1	ch5 core observability	
+In what sense are minimal realizations unique?	All minimal realizations of a given transfer function are similar.	Uniqueness is up to change of state coordinates.	5	5.2	ch5 core uniqueness	
+What is the significance of uniqueness up to similarity?	It means minimality defines an equivalence class of realizations.	Internal coordinates are irrelevant to behavior.	5	5.2	ch5 core equivalence	
+How does minimality relate to the transfer function?	The minimal state dimension equals the McMillan degree of the transfer function.	Bridges state-space and algebraic descriptions.	5	5.3	ch5 core mcmillan	
+What does the McMillan degree measure?	The order of the minimal realization of a rational transfer function.	Counts the essential dynamic complexity.	5	5.3	ch5 core mcmillan	
+What is pole–zero cancellation in a transfer function?	The algebraic cancellation of common polynomial factors in numerator and denominator.	May hide internal dynamics.	5	5.4	ch5 core cancellation	
+Why is pole–zero cancellation dangerous in realization theory?	It can conceal uncontrollable or unobservable modes.	Such modes still exist internally.	5	5.4	ch5 danger cancellation	
+Does pole–zero cancellation imply those modes are absent?	No. Cancellation only removes them from the transfer function.	State-space analysis is required to detect them.	5	5.4	ch5 danger cancellation	
+How does minimality relate to structural redundancy?	Minimality removes all dynamically redundant state components.	It is a structural notion, not numerical.	5	5.5	ch5 core structure	
+Why is minimality independent of the particular realization chosen?	Because it is invariant under similarity transformations.	Only the equivalence class matters.	5	5.5	ch5 core invariance	
+Why can two realizations with different dimensions have the same transfer function?	Because one may contain uncontrollable or unobservable states.	These states do not affect input–output behavior.	5	5.x	ch5 core io-vs-state	
+Why does minimality matter beyond input–output behavior?	It ensures the internal model is as simple as possible.	Crucial for synthesis and interpretation.	5	5.x	ch5 core motivation	
+Why is minimality not sufficient for passive realizability?	Passivity imposes additional inequality and structural constraints.	Motivates Brune synthesis.	5	5.x	ch5 danger pr-link	
+How does minimality relate to element count in passive networks?	It gives a lower bound on the number of energy storage elements.	Not all minimal realizations are physically realizable.	5	5.x	ch5 pr-link synthesis	
+Why can a minimal realization still violate passivity?	Because minimality only enforces algebraic constraints.	Energy and dissipation structure are additional requirements.	5	5.x	ch5 danger pr-link	
+Give an example of a non-minimal realization of a simple transfer function.	A realization with an uncontrollable or unobservable state added.	Such states can be removed to obtain a minimal realization.	5	5.x	ch5 example micro	
+Give an example of cancellation hiding internal dynamics.	A pole–zero cancellation that removes a mode from the transfer function but not from the state equations.	Highlights need for state-space analysis.	5	5.x	ch5 example micro	
+⚠️ What is the most common misconception about minimal realizations?	That minimal means physically minimal or passive.	Minimality is purely an algebraic concept.	5	5.x	ch5 danger big-picture	
+Why is Chapter 5 central to the rest of the book?	It links structure, algebra, and realizability.	Sets the stage for canonical forms and synthesis.	5	5.x	ch5 forward ch6	

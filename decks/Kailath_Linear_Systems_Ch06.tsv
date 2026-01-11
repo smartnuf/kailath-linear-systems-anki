@@ -1,6 +1,0 @@
-Front	Back	Context	Chapter	Section	Tags	Image
-Why introduce canonical forms?	To choose representative realizations within an equivalence class.	Simplifies analysis and synthesis.	6	6.1	ch6 core motivation	
-What does controllable canonical form emphasize?	Input reachability structure.	Highlights controllability explicitly.	6	6.2	ch6 core canonical	
-What does observable canonical form emphasize?	Output reconstruction structure.	Dual of controllable form.	6	6.2	ch6 core canonical	
-Why are canonical forms not unique?	Different structural features can be emphasized.	All remain behaviorally equivalent.	6	6.3	ch6 core nonuniqueness	
-⚠️ Why are canonical forms not synthesis recipes?	They ignore physical realizability constraints.	Important for PR and network synthesis.	6	6.x	ch6 danger pr-link	

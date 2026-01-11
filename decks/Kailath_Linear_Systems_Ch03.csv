@@ -1,0 +1,29 @@
+What is the purpose of Chapter 3 in Kailath?	To establish linear-algebraic concepts needed for realization theory, focusing on structure rather than computation.	Eigenvalue algorithms are secondary; invariants and subspaces are primary.	3	3.1	ch3 core motivation	
+Why does Kailath emphasise structure over numerical algorithms?	Because realization properties must hold under exact algebraic equivalence, not approximate numerical procedures.	This matters for minimality and invariance.	3	3.1	ch3 core philosophy	
+Over which fields are state spaces usually defined?	Over the real or complex numbers.	The choice affects eigenstructure and canonical forms.	3	3.2	ch3 core vector-space	
+Why are complex vector spaces often used even for real systems?	They simplify spectral and structural analysis.	Real realizations can usually be recovered later.	3	3.2	ch3 core complexification	
+⚠️ Why is it dangerous to ignore the underlying field?	Because properties like diagonalizability depend on the field.	A matrix may be non-diagonalizable over R but diagonalizable over C.	3	3.2	ch3 danger field	
+What is the distinction between a linear map and a matrix?	A linear map is an abstract transformation; a matrix is its representation in a chosen basis.	Structural properties belong to the map, not the matrix.	3	3.3	ch3 core linear-map	
+Why is this distinction important in system theory?	Because realizations change coordinates but preserve the underlying linear map.	Similarity reflects change of basis.	3	3.3	ch3 core similarity	
+What does the rank of a linear map represent?	The dimension of its image.	Rank is invariant under change of basis.	3	3.4	ch3 core rank	
+What does the nullspace (kernel) represent?	The set of vectors mapped to zero by the linear map.	Kernel structure reveals redundancy.	3	3.4	ch3 core kernel	
+What does the rank–nullity theorem state?	dim(domain) = rank + nullity.	Fundamental constraint used throughout system theory.	3	3.4	ch3 core theorem	
+Why are rank conditions central in realization theory?	They provide coordinate-free tests for controllability and observability.	Later used in minimality proofs.	3	3.4	ch3 core rank-conditions	
+What is the right nullspace of a matrix?	The set of vectors x such that A x = 0.	Corresponds to unobservable or unreachable modes later.	3	3.5	ch3 core nullspace	
+What is the left nullspace of a matrix?	The set of vectors y such that y^T A = 0.	Important for zero structure and observability.	3	3.5	ch3 core nullspace	
+⚠️ Why must left and right nullspaces be distinguished?	They capture different structural properties.	Confusing them leads to incorrect duality arguments.	3	3.5	ch3 danger nullspace	
+What is an invariant subspace of a linear map?	A subspace that is mapped into itself by the linear map.	Invariant under the dynamics.	3	3.6	ch3 core invariant-subspace	
+Why are invariant subspaces important in systems theory?	They identify dynamically decoupled components of the state.	Key to Kalman decomposition.	3	3.6	ch3 core invariant-subspace	
+Give an example of an invariant subspace in a dynamical system.	The subspace spanned by eigenvectors corresponding to a subset of eigenvalues.	Only valid when eigenvectors exist.	3	3.6	ch3 example micro	
+What does it mean to decompose a space as a direct sum?	The space is written as a sum of subspaces with trivial intersection.	Used to separate controllable and uncontrollable parts.	3	3.7	ch3 core direct-sum	
+Why are direct-sum decompositions useful?	They allow independent analysis of decoupled subsystems.	Foundation of structural decompositions.	3	3.7	ch3 core decomposition	
+What does similarity of matrices represent abstractly?	Representation of the same linear map in different bases.	Preserves all structural invariants.	3	3.8	ch3 core similarity	
+What properties are preserved under similarity?	Rank, eigenvalues, invariant subspaces, minimal polynomial.	Not sparsity or numerical conditioning.	3	3.8	ch3 core invariants	
+⚠️ What is not preserved under similarity?	Sparsity patterns, canonical appearance, energy metrics.	Important for synthesis.	3	3.8	ch3 danger similarity	
+What do eigenvalues represent in linear systems?	Modes of the autonomous (unforced) dynamics.	They do not capture input/output structure alone.	3	3.9	ch3 core eigenvalues	
+⚠️ Why are eigenvectors often over-interpreted?	They depend on basis choice and may not exist or be complete.	Jordan structure matters.	3	3.9	ch3 danger eigenvectors	
+What is the Jordan canonical form?	A canonical representation that reveals eigenvalues and algebraic multiplicities.	Exists over algebraically closed fields.	3	3.10	ch3 preview jordan	
+Why does Kailath treat Jordan form cautiously?	Because it is fragile and not structurally robust.	Small perturbations destroy it.	3	3.10	ch3 preview jordan	
+Why is linear algebra essential for controllability and observability?	Because these properties are expressed as rank conditions on linear maps.	Chapter 4 builds directly on this.	3	3.x	ch3 forward ch4	
+Why does realization theory require more than eigenvalue analysis?	Because input–output behavior depends on zeros and invariant subspaces.	Motivates Smith–McMillan theory later.	3	3.x	ch3 forward sm	
+⚠️ What is the core danger when reading Chapter 3?	Treating it as a computational refresher rather than a structural foundation.	This leads to misuse of later results.	3	3.x	ch3 danger big-picture	

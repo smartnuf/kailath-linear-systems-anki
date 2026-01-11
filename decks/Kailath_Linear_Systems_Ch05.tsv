@@ -1,6 +1,0 @@
-Front	Back	Context	Chapter	Section	Tags	Image
-What is a minimal realization?	A realization that is both controllable and observable.	Minimal dimension among all realizations.	5	5.1	ch5 core minimality	
-Why is minimality unique up to similarity?	All minimal realizations of a given transfer function are similar.	Dimension is an invariant.	5	5.2	ch5 core uniqueness	
-What does minimality exclude?	Uncontrollable or unobservable state components.	Removes dynamical redundancy.	5	5.1	ch5 core exclusion	
-How does minimality relate to McMillan degree?	They are equal for rational transfer functions.	Bridges algebraic and state-space views.	5	5.3	ch5 core mcmillan	
-⚠️ Why is minimality not sufficient for passive realizability?	Passivity imposes additional inequality constraints.	Motivates Brune synthesis.	5	5.x	ch5 danger pr-link	
