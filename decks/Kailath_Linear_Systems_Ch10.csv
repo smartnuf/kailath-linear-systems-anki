@@ -4,3 +4,5 @@ How do zeros relate to invariant subspaces?	Zeros correspond to internal structu
 Why are zeros important for control and synthesis?	They constrain achievable dynamics and feedback.	Cannot be moved arbitrarily.	10	10.3	ch10 core significance	
 Why are zeros critical in passive networks?	They correspond to resonance and blocking phenomena.	Linked to physical realizability.	10	10.x	ch10 pr-link	
 ⚠️ Why are zeros often misunderstood?	They are not simply numerator roots.	They are structural invariants.	10	10.x	ch10 danger zeros	
+What are transmission poles and transmission zeros (high level)?	Invariants of a transfer matrix describing frequencies of transmission resonance (poles) and blocking (zeros).	Captured neatly by Smith–McMillan form.	10	10.x	ch10 core transmission poles-zeros index	
+⚠️ Why are transmission zeros not just numerator roots in MIMO?	They depend on the matrix structure and unimodular equivalence, not entrywise simplification.	Use Smith–McMillan invariants.	10	10.x	ch10 danger transmission zeros index	

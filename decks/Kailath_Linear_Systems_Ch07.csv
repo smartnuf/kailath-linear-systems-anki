@@ -19,3 +19,8 @@ How is stability interpreted in passive networks?	Energy must not grow internall
 Why does passivity imply stability?	Energy dissipation prevents unbounded growth.	Formalized via Lyapunov functions.	7	7.x	ch7 pr-link implication	
 ⚠️ What is the most common mistake regarding stability?	Equating BIBO stability with internal stability.	They are different notions.	7	7.x	ch7 danger big-picture	
 Why is Chapter 7 a conceptual bridge?	It links algebraic structure, dynamics, and energy interpretations.	Prepares for realization and synthesis theory.	7	7.x	ch7 forward	
+What is the controllability Gramian (continuous-time, stable A)?	Wc = ∫_0^∞ e^{At} B B^T e^{A^T t} dt.	Measures how inputs excite state directions.	7	7.x	ch7 core gramian controllability index	
+What Lyapunov equation does the controllability Gramian satisfy (stable A)?	A Wc + Wc A^T + B B^T = 0.	Provides a computational route when A is stable.	7	7.x	ch7 core gramian lyapunov index	
+What is the observability Gramian (continuous-time, stable A)?	Wo = ∫_0^∞ e^{A^T t} C^T C e^{A t} dt.	Measures how state directions affect outputs.	7	7.x	ch7 core gramian observability index	
+What Lyapunov equation does the observability Gramian satisfy (stable A)?	A^T Wo + Wo A + C^T C = 0.	Dual to the controllability Gramian equation.	7	7.x	ch7 core gramian lyapunov index	
+Why are Gramians structurally important?	They connect reachability/observability to quadratic energy-like measures.	Bridge to balanced realizations and model reduction later.	7	7.x	ch7 preview gramians significance index	

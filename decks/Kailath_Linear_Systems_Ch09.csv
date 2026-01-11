@@ -5,3 +5,7 @@ What is the Smith normal form?	A diagonal form of a polynomial matrix under unim
 What does Smith–McMillan form generalize?	Smith form for rational matrices.	Classifies poles and zeros structurally.	9	9.4	ch9 core smith-mcmillan	
 Why does Smith–McMillan form matter?	It defines the McMillan degree and transmission zeros.	Central invariant of transfer matrices.	9	9.4	ch9 core invariants	
 ⚠️ Why is this not linear algebra over a field?	Polynomial matrices form modules over rings.	Vector-space intuition breaks down.	9	9.x	ch9 danger modules	
+What does 'unimodular' mean for a polynomial matrix?	It has a polynomial inverse (equivalently, its determinant is a nonzero constant).	Unimodular transformations are the ring-analogue of change-of-basis matrices.	9	9.2	ch9 core unimodular index	
+What does the Smith normal form reveal?	Invariant factors of a polynomial matrix under unimodular equivalence.	These invariants generalize gcd structure to matrices.	9	9.3	ch9 core smith index	
+How does Smith–McMillan form extend Smith form?	It diagonalizes a rational matrix into ratios of polynomials, revealing pole/zero structure invariantly.	Defines transmission zeros/poles and McMillan degree.	9	9.4	ch9 core smith-mcmillan index	
+Why does module language appear here (preview)?	Polynomial matrices act on free modules over a ring, not vector spaces over a field.	Unimodular equivalence is module isomorphism, not similarity.	9	9.x	ch9 preview modules index	

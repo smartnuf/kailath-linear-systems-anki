@@ -5,3 +5,4 @@ Why is strict properness important?	It ensures the state captures all dynamics.	
 How does realization relate to McMillan degree?	The McMillan degree equals the minimal state dimension.	Links algebraic and state-space views.	8	8.3	ch8 core mcmillan	
 Why is realization not unique?	Many similarity-related realizations produce the same behavior.	Structure, not coordinates, matters.	8	8.x	ch8 core nonuniqueness	
 ⚠️ Why is realization theory not synthesis?	Existence does not imply physical or passive realizability.	Additional constraints are needed.	8	8.x	ch8 danger synthesis	
+How can a realization be constructed from Markov parameters (conceptually)?	Build a Hankel matrix from Markov parameters; its rank gives system order; a factorization yields (A,B,C).	This is the algebraic ancestor of subspace identification.	8	8.x	ch8 preview markov-hankel realization index	

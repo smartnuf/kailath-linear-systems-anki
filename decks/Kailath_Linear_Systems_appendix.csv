@@ -3,3 +3,6 @@ What is coprimeness of polynomials?	Polynomials with no common factors.	Crucial 
 Why does coprimeness matter in realization theory?	It distinguishes true dynamics from cancelled artifacts.	Used in minimality proofs.	A	A.2	app realization	
 What is a module (preview)?	A generalization of vector spaces over rings.	Polynomial matrices act on modules.	A	A.3	app preview modules	
 ⚠️ Why does module theory matter here?	Many invariants live over rings, not fields.	Linear algebra intuition must be extended.	A	A.x	app danger modules	
+What is Bézout's identity for polynomials?	If gcd(p,q)=1 then there exist a,b such that a p + b q = 1.	Key tool behind coprime factorizations.	A	A.2	app core bezout index	
+What is the Sylvester matrix (idea)?	A structured matrix built from coefficients of two polynomials whose determinant relates to their resultant.	Used to test coprimeness and common roots.	A	A.2	app preview sylvester index	
+What is the resultant of two polynomials?	A scalar that is zero iff the polynomials share a common root.	Connects to Bézout and Sylvester constructions.	A	A.2	app core resultant index	

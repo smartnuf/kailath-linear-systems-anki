@@ -1,3 +1,4 @@
+Front	Back	Context	Chapter	Section	Tags	Image
 What is the purpose of Chapter 3 in Kailath?	To establish linear-algebraic concepts needed for realization theory, focusing on structure rather than computation.	Eigenvalue algorithms are secondary; invariants and subspaces are primary.	3	3.1	ch3 core motivation	
 Why does Kailath emphasise structure over numerical algorithms?	Because realization properties must hold under exact algebraic equivalence, not approximate numerical procedures.	This matters for minimality and invariance.	3	3.1	ch3 core philosophy	
 Over which fields are state spaces usually defined?	Over the real or complex numbers.	The choice affects eigenstructure and canonical forms.	3	3.2	ch3 core vector-space	
@@ -27,3 +28,5 @@ Why does Kailath treat Jordan form cautiously?	Because it is fragile and not str
 Why is linear algebra essential for controllability and observability?	Because these properties are expressed as rank conditions on linear maps.	Chapter 4 builds directly on this.	3	3.x	ch3 forward ch4	
 Why does realization theory require more than eigenvalue analysis?	Because input–output behavior depends on zeros and invariant subspaces.	Motivates Smith–McMillan theory later.	3	3.x	ch3 forward sm	
 ⚠️ What is the core danger when reading Chapter 3?	Treating it as a computational refresher rather than a structural foundation.	This leads to misuse of later results.	3	3.x	ch3 danger big-picture	
+What is the minimal polynomial of a matrix A?	The monic polynomial of least degree m(s) such that m(A)=0.	It divides the characteristic polynomial and encodes Jordan block sizes.	3	3.x	ch3 preview minimal-polynomial index	
+What does the Cayley–Hamilton theorem state?	A matrix satisfies its own characteristic polynomial: p_A(A)=0.	Often used to reduce powers of A in controllability/observability arguments.	3	3.x	ch3 core cayley-hamilton index	

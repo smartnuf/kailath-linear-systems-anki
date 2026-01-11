@@ -1,3 +1,4 @@
+Front	Back	Context	Chapter	Section	Tags	Image
 What is the central question of controllability?	Whether it is possible to steer the state from any initial condition to any final condition using admissible inputs.	Property of the realization, not just the differential equation.	4	4.1	ch4 core controllability	
 What is the central question of observability?	Whether the internal state can be uniquely reconstructed from knowledge of the input and output over time.	Dual to controllability.	4	4.1	ch4 core observability	
 Why are controllability and observability realization properties?	They depend on how the state is represented internally, not only on the input–output map.	However, minimality makes them intrinsic.	4	4.1	ch4 core realization	
@@ -26,3 +27,5 @@ Give an example of an uncontrollable but stable mode.	A decoupled stable subsyst
 Give an example of an unobservable mode.	A state that evolves but does not appear in the output equation.	Hidden from measurement.	4	4.x	ch4 example micro	
 ⚠️ What is the most common mistake when first learning controllability?	Assuming it is purely an input–output concept.	It is fundamentally a state-space notion.	4	4.x	ch4 danger big-picture	
 Why is Chapter 4 a turning point in the book?	It introduces structural criteria that define meaningful realizations.	Sets the stage for minimality and canonical forms.	4	4.x	ch4 forward ch5	
+What are controllability indices (high level)?	Integers describing the lengths of controllability chains needed to span the reachable subspace.	They refine 'controllable/uncontrollable' into a structural profile.	4	4.x	ch4 preview controllability-indices index	
+What are observability indices (high level)?	Integers describing the lengths of observability chains needed to reconstruct the observable subspace.	Dual to controllability indices.	4	4.x	ch4 preview observability-indices index	
