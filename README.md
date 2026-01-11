@@ -135,6 +135,52 @@ Expect:
 - possible alternative card styles (e.g. cloze).
 
 Contributions, suggestions, and corrections are welcome via issues or pull requests.
+---
+
+## Planned Figures & Pictorial Flashcards
+
+This project includes a curated list of candidate diagrams and figures intended
+for future **pictorial Anki flashcards**.
+
+The list is maintained separately in:
+
+- [`FIGURES-TODO.md`](FIGURES-TODO.md)
+
+The figures listed there are **deliberately maximal**. Not all will necessarily
+be created; the intent is to identify high-leverage visualizations early, then
+prune based on study experience.
+
+### Design principles for figures
+
+- Each figure should communicate **one structural idea**
+- Diagrams should be **schematic and abstract**, not screenshots of the textbook
+- Figures should support **active recall**, not replace reasoning
+- Visuals should remain valid across:
+  - coordinate changes
+  - equivalent realizations
+  - different physical interpretations
+
+Image creation is intentionally deferred until the text-based deck stabilizes.
+
+Contributions of draft diagrams, suggestions, or alternative visualizations are
+welcome; see the notes in `FIGURES-TODO.md` for guidance.
+
+## Figure Contributions
+
+Figures should be contributed in **SVG format** wherever possible, as well as 
+any editor form used (using the same basename different different extension).
+Remove any editor form files that become out-of-date.
+
+Accepted tools include:
+- Inkscape
+- Affinity Designer
+- TikZ / PGF / LaTeX
+- Other tools capable of producing clean SVG
+
+Contributors are encouraged to:
+- keep diagrams abstract and schematic
+- avoid embedding long equations in images
+- ensure readability at small sizes (mobile Anki clients)
 
 ---
 
