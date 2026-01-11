@@ -1,0 +1,6 @@
+Front	Back	Context	Chapter	Section	Tags	Image
+Why does Kailath include a linear algebra review?	Because realization theory depends on structural properties of linear maps, not computational techniques.	Focus is on rank, nullspaces, invariance, not numerical algorithms.	3	3.1	ch3 core motivation	
+What is the role of rank in system theory?	Rank characterizes reachability, observability, and minimality.	Rank conditions are coordinate-free.	3	3.2	ch3 core rank	
+Why are invariant subspaces important?	They identify dynamically decoupled or redundant state components.	Key for Kalman decomposition.	3	3.3	ch3 core invariance	
+What algebraic object underlies state-space equivalence?	Linear transformations over a field.	Later generalized to modules over rings.	3	3.x	ch3 preview algebra	
+⚠️ Why is numerical diagonalization not central in Kailath?	Because structural properties must hold under exact algebraic equivalence.	Eigenvectors are fragile under perturbation.	3	3.x	ch3 danger	
